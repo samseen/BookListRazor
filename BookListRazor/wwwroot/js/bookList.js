@@ -19,11 +19,11 @@ function loadDataTable() {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                        <a href="/BookList/Edit?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:100px'>
+                        <a href="/BookList/Edit?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px'>
                             Edit
                         </a>
                         &nbsp;
-                        <a class='btn btn-danger text-white' style='cursor:pointer; width:100px'>
+                        <a class='btn btn-danger text-white' style='cursor:pointer; width:70px'>
                             Delete
                         </a>
                     </div>`;
